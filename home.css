@@ -1,0 +1,98 @@
+*{
+  margin : 0px;
+  padding : 0px;
+}
+.part1{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url("background.jpeg");
+  background-size: cover;
+  height : 100vh;
+
+
+}
+.main{
+  margin-right:250px;
+}
+ul.navbar-nav li :hover{
+  background-color: transparent;
+  color : white ;
+
+}
+span.icon-bar{
+  color : white;
+}
+#myNavbar{
+  margin-right : 60px;
+  margin-top:10px;
+}
+img {
+  width : 125px;
+  height : 125px;
+   margin-left : 50px;
+   margin-top : 10px;
+}
+ul{
+  list-style-type: none;
+  float: right;
+  margin-top: 30px;
+}
+ul li{
+  display: inline-block;
+  font-size: 20px;
+
+  margin-right: 20px;
+}
+
+li:hover{
+  text-decoration: underline;
+}
+li a{
+  color : white;
+}
+
+
+.content{
+  float:left;
+  color : white;
+  padding: 100px;
+  margin-top:50px;
+  margin-left: 70px;
+  font-size:40px;
+}
+
+.button{
+position: absolute;
+top:60%;
+left:10%;
+}
+
+.btn-success{
+  margin: 15px;
+  display: inline-block;
+  border-radius: 25px;
+  width:200px;
+  height:60px;
+  margin-right: 40px;
+}
+.btn-success:hover {
+  color: #FFF;
+  background-color: #308014;
+}
+.btn-kk{
+  border-radius: 25px;
+  width:200px;
+  display: inline-block;
+  height:60px;
+  width:200px;
+  background: transparent;
+  color : cyan;
+  border : 2px solid cyan;
+}
+.btn-kk:hover {
+  color: #FFF;
+  background-color: #7ED6DF;
+
+
+}
+.bt1{
+  font-size:25px;
+}
