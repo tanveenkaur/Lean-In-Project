@@ -96,3 +96,48 @@ left:10%;
 .bt1{
   font-size:25px;
 }
+
+
+@media only screen and (max-width: 480px) {
+    /* This CSS will be applied only to phones and other small devices. */
+    .part1{
+      height:110vh;
+      background-size: cover;
+      width: 100%;
+      background-position: center;
+    }
+
+   #logo{
+   width: 15%;
+   margin-left: -58px;
+   float: left;
+ }
+    .lower{
+      margin-top: -60px;
+      margin-left:-50px;
+      padding-top: 0px;
+
+    }
+    .content{
+      font-size: 25px;
+    }
+ .button{
+   margin-top:70px;
+   margin-left: -20px;
+ }
+ .btn-success{
+  border-radius: 25px;
+   margin-right: 10px;
+   padding-right: 25px;
+   display: inline;
+   width:20%;
+   padding-top:20px;
+   padding-bottom : 20px;
+ }
+ .btn-kk{
+   border-radius: 25px;
+   margin-left:0px;
+   padding-right: 25px;
+   display: inline-block;
+ }
+}
