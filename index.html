@@ -8,39 +8,57 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://kit.fontawesome.com/6b48bb4d45.js" crossorigin="anonymous"></script>
 <script src="doc.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <link rel="stylesheet" type="text/css" href="home.css">
-
+<script>
+      $(function () {
+        $(document).scroll(function(){
+          var $nav = $("#mainavbar");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
 </head>
 <body>
 
 <div class= "part1">
+  <nav id="mainavbar" class="navbar navbar-expand-md navbar-dark fixed-top">
+        <a class="navbar-brand" id="logo" href="#"><img  src="logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navlinks" aria-controls="navlinks" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navlinks">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
 
-<nav class="navbar">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle icon" data-toggle="collapse" data-target="#myNavbar">
-      <span class="icon-bar "></span>
-      <span class="icon-bar "></span>
-      <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" id="logo" href="#"><img  src="logo.png"></a>
-    </div>
-    <div class="collapse navbar-collapse"id="myNavbar" >
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">FOOD DELIVERY</a></li>
-        <li><a href="#">HOW IT WORKS</a></li>
-        <li><a href="#">OUR CITIES</a></li>
-        <li><a href="#">SIGN IN</a></li>
+              	<a class="nav-link" id="link"  href="#">FOOD DELIVERY</a>
 
-      </ul>
-    </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="link1" href="#">HOW IT WORKS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="link1" href="#">OUR CITIES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="link1" href="#">SIGN IN</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-</nav>
+
 <div class="lower">
-<div class="content">
+<div class="container-fluid">
+<div class="cont">
 <p id="bn-1">GOODBYE JUNK FOOD</p>
 <p id="bn">HELLO SUPER HEALTHY FOOD :)</p>
+</div>
 </div>
 
 <div class="button">
@@ -48,6 +66,165 @@
 <a type="button" href="#" class="btn btn-lg btn-kk active bn"><span class="bt1">SHOW MORE</span></a>
 </div>
 </div>
+</div>
+</div>
+
+
+<div id="part2" class="container-fluid">
+  <h1 id="food">GET FOOD FAST - NOT FAST FOOD</h1>
+  <div id="food1"></div>
+         <p id="text2">Hello! we're OmniFood, your new premium food delivery service.
+            We know you're always busy. No time for coookong.
+            So let us take care of that.We're really good at it. We promise.
+          </p>
+          <section class="container-fluid" >
+                   <div class="row align-items-center">
+                     <div id="cols" class="col-sm-3">
+                      <i class="fas fa-calendar-day fa-5x"></i>
+                      <h3>UPTO 365 DAYS/YEAR</h3>
+                      <br>
+              <p>Never cook again! We really mean that. Our subscription plans include upto 365 days/year coverage. You can also choose too order more flexibly if that's your style.</p>
+             </div>
+             <div id="cols" class="col-sm-3">
+               <i class="fas fa-truck-moving fa-5x"></i>
+               <h3>READY IN 20 MINUTES</h3>
+               <br>
+               <p>You're only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chef's in each town to ensure that yu're 100% happy</p>
+             </div>
+             <div id="cols" class="col-sm-3">
+               <i id="option" class="fas fa-carrot fa-5x"></i>
+               <h3>100% ORGANIC</h3>
+               <br>
+               <br>
+
+               <p>All our vegetables are fresh, organic, and local. Animals are raised without added hrmones or antibiotics. Good for your health, the environment, and it also tastes better.</p>
+             </div>
+             <div id="cols" class="col-sm-3">
+               <i class="fas fa-box-open fa-5x"></i>
+               <h3>ORDER ANYTHING</h3>
+               <br>
+
+               <p>We don't limit your creativity whichmeans you can order whatever you like. You can also choose from our menu containing over 100 delicious meals. It's up to you.</p>
+             </div>
+           </div>
+         </section>
+  </div>
+  <div id="part3" class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 ">
+          <img src="https://source.unsplash.com/Yr4n8O_3UPc">
+        </div>
+        <div class="col-md-3 ">
+          <img src="https://source.unsplash.com/hTR1XPtTo_k">
+        </div>
+        <div class="col-md-3">
+          <img src="https://source.unsplash.com/Aef_mTR4PDU">
+        </div>
+        <div class="col-md-3">
+          <img src="https://source.unsplash.com/Mzy-OjtCI70">
+        </div>
+        <div class="col-md-3 ">
+          <img src="https://source.unsplash.com/w6ftFbPCs9I">
+        </div>
+        <div class="col-md-3 ">
+          <img src="https://source.unsplash.com/7zfQ6sbWVyE">
+        </div>
+        <div class="col-md-3">
+          <img src="https://source.unsplash.com/UxRhrU8fPHQ">
+        </div>
+        <div class="col-md-3 ">
+          <img src="https://source.unsplash.com/q66grqqHpDQ">
+        </div>
+      </div>
+    </div>
+
+    <div id="part4">
+   <h1 class="text-center" id="h2">HOW IT WORKS - SIMPLE AS 1, 2, 3</h1>
+   <div class="container-fluid">
+     <div class="row">
+       <div class="col-md-6">
+         <img src="https://www.ianposton.com/omnifood/resources/img/app-iPhone.png">
+       </div>
+       <div class="col-md-6">
+         <div class="line"><span class="count">1</span><p class="content">Choose the subscription plan that best suits your needs and sign up today.</p></div>
+         <div class="line"><span class="count">2</span><p class="content">Order your delicious meal using our mobile app or website. Or you can even call us!</p></div>
+         <div class="line"><span class="count">3</span><p class="content">Enjoy your meal after less than 20 minutes. See you next time!</p></div>
+         <div class="line1">
+           <a href="#"  ><span id="google">
+              <img src="https://omnifoodraj.herokuapp.com/images/google-play-badge.png"></span>
+            </a>
+            <a href="#" ><span  id="apple">
+              <img src="https://omnifoodraj.herokuapp.com/images/apple.png"></span>
+            </a>
+          </div>
+
+          </div>
+      </div>
+</div>
+  </div>
+
+
+
+
+  <div id ="part5">
+  <h1 class="city">WE'RE CURRENTLY IN THESE CITIES</h1>
+  <div id="food1"></div>
+  <div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Seine_and_Eiffel_Tower_from_Tour_Saint_Jacques_2013-08.JPG" style="width: 100%; height: 170px;">
+      <section>
+            <p class="caption">PARIS</p>
+            <div class="section">
+            <p id="cap"><i class="fa fa-users"></i>1600+ happy eaters</p>
+            <br>
+            <p id="cap"><i class="fa fa-crown" ></i>60+ top chefs</p>
+            <br>
+            <p id="cap"><i class="fa fa-twitter"></i><a href="#"> @omnifoods_p</a></p>
+          </div>
+          </section>
+        </div>
+        <div class="col-md-3">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/63/Tower_Bridge_from_Shad_Thames.jpg" style="width: 100%; height: 170px;">
+          <section>
+                <p class="caption">LONDON</p>
+                <div class="section">
+                <p id="cap"><i class="fa fa-users"></i>3000+ happy eaters</p>
+                <br>
+                <p id="cap"><i class="fa fa-crown" ></i>60+ top chefs</p>
+                <br>
+                <p id="cap"><i class="fa fa-twitter"></i><a href="#">@omnifood_london</a></p>
+              </div>
+              </section>
+            </div>
+            <div class="col-md-3">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Red_Fort_Independence_Day.jpg" style="width: 100%; height: 170px;">
+              <section>
+                    <p class="caption">INDIA</p>
+                    <div class="section">
+                    <p id="cap"><i class="fa fa-users"></i>1800+ happy eaters</p>
+                    <br>
+                    <p id="cap"><i class="fa fa-crown" ></i>80+ top chefs</p>
+                    <br>
+                    <p id="cap"><i class="fa fa-twitter"></i><a href="#"> @omnifoods_in</a></p>
+                  </div>
+                  </section>
+                </div>
+                <div class="col-md-3">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Lower_Manhattan_skyline_-_June_2017.jpg" style="width: 100%; height: 170px;">
+                  <section>
+                        <p class="caption">NEW YORK</p>
+                        <div class="section">
+                        <p id="cap"><i class="fa fa-users"></i>1800+ happy eaters</p>
+                        <br>
+                        <p id="cap"><i class="fa fa-crown" ></i>70+ top chefs</p>
+                        <br>
+                        <p id="cap"><i class="fa fa-twitter"></i><a href="#"> @omnifoods_nyc</a></p>
+                      </div>
+                      </section>
+                    </div>
+
+
 </div>
 </div>
 </body>

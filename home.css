@@ -1,72 +1,61 @@
 *{
   margin : 0px;
   padding : 0px;
+
 }
 .part1{
   background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url("background.jpeg");
   background-size: cover;
   height : 100vh;
+}
+.part1 img{
+width: 80px;
+height:70px;
+margin-top: 0px;
+padding-top: 0px;
+}
+.part1 #link , #link1{
 
-
-}
-.main{
-  margin-right:250px;
-}
-ul.navbar-nav li :hover{
-  background-color: transparent;
-  color : white ;
-
-}
-span.icon-bar{
-  color : white;
-}
-#myNavbar{
-  margin-right : 60px;
-  margin-top:10px;
-}
-img {
-  width : 125px;
-  height : 125px;
-   margin-left : 50px;
-   margin-top : 10px;
-}
-ul{
-  list-style-type: none;
-  float: right;
-  margin-top: 30px;
-}
-ul li{
-  display: inline-block;
+  color: white;
   font-size: 20px;
 
   margin-right: 20px;
 }
-
-li:hover{
+.part1 #link:hover{
+  background-color: transparent;
+  color : white ;
   text-decoration: underline;
+
 }
-li a{
-  color : white;
+.part1 #link1:hover{
+  background-color: transparent;
+  color : white ;
+  text-decoration: underline;
+
+}
+.navbar.scrolled{
+    background: tomato;
+    transition: background 1s;
+
 }
 
-
-.content{
+.cont{
   float:left;
   color : white;
-  padding: 100px;
-  margin-top:50px;
-  margin-left: 70px;
   font-size:40px;
+  margin-top: 200px;
+  margin-left: 150px;
 }
 
 .button{
-position: absolute;
-top:60%;
-left:10%;
+
+display: inline-block;
+margin-left: 150px;
+margin-top: 20px;
 }
 
 .btn-success{
-  margin: 15px;
+
   display: inline-block;
   border-radius: 25px;
   width:200px;
@@ -97,47 +86,240 @@ left:10%;
   font-size:25px;
 }
 
-
 @media only screen and (max-width: 480px) {
-    /* This CSS will be applied only to phones and other small devices. */
-    .part1{
-      height:110vh;
-      background-size: cover;
-      width: 100%;
-      background-position: center;
-    }
+  .cont{
+    margin-left:80px ;
+    margin-top:205px ;
+    font-size: 25px;
+  }
 
-   #logo{
-   width: 15%;
-   margin-left: -58px;
-   float: left;
- }
-    .lower{
-      margin-top: -60px;
-      margin-left:-50px;
-      padding-top: 0px;
+  .button{
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: 55px;
+  }
+  .btn-success{
 
-    }
-    .content{
-      font-size: 25px;
-    }
- .button{
-   margin-top:70px;
-   margin-left: -20px;
- }
- .btn-success{
-  border-radius: 25px;
-   margin-right: 10px;
-   padding-right: 25px;
-   display: inline;
-   width:20%;
-   padding-top:20px;
-   padding-bottom : 20px;
- }
- .btn-kk{
-   border-radius: 25px;
-   margin-left:0px;
-   padding-right: 25px;
-   display: inline-block;
- }
+    display: inline-block;
+    border-radius: 25px;
+    width:90px;
+    height:40px;
+    padding-right: 0px;
+    margin-right: 5px;
+
+  }
+  .btn-kk{
+
+    display: inline-block;
+    border-radius: 25px;
+    width:110px;
+    height:40px;
+
+
+  }
+  .bt1{
+    font-size: 15px;
+    text-align: center;
+  }
+  .part1 img {
+    display: none;
+
+  }
+  .part1 #link{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding-bottom: 0px;
+  }
+}
+
+
+
+#part2{
+  background-color: snow;
+  margin : 10px 0px 0px 0px;
+  padding-bottom: 40px;
+
+}
+#cols{
+  margin-top: 100px;
+}
+#food{
+  margin-top : 80px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#food1 {
+  width:15%;
+  height:2px;
+  background-color: tomato;
+  position: absolute;
+  left:40%;
+
+}
+#text2{
+  margin : 50px 20px 20px 15px;
+  text-align: center;
+  font-size: 16px;
+}
+.fas{
+  color: tomato;
+  margin-left: 55px;
+
+}
+
+#cols h3{
+    margin-left: 45px;
+}
+#cols p{
+  font-size : 15px;
+}
+#part3{
+  background-color: snow;
+}
+
+#part3 img{
+  width:340px;
+  height:200px;
+  margin-left : -20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+
+}
+@media only screen and (max-width: 480px) {
+  #part3{
+    overflow: hidden;
+  }
+}
+
+#line {
+  width:15%;
+  height:2px;
+  background-color: tomato;
+  position: absolute;
+  left:45%;
+  margin-top: 5px;
+
+}
+#h2{
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
+
+#part4 img{
+	width: 200px;
+	height: 404px;
+	margin-top: 0rem;
+	margin-bottom: 1rem;
+	margin-right: 0;
+  padding-right: 0px;
+	margin-left: 55%;
+}
+
+#part4{
+	background-color: peachpuff;
+	display: block;
+  margin-top: -20px;
+}
+
+#part4 .count{
+  margin-right : 70px;
+  border-radius: 60%;
+	border: 2px solid white;
+	width: 20%;
+  height:20px;
+	text-align: center;
+	color: white;
+	padding: 0.5rem 0.5rem;
+  font-size: 40px;
+  margin-bottom: 50px;
+  padding-bottom: 10px;
+}
+
+#part4 .line{
+  margin-top : 0px;
+  padding-top: 0px;
+  margin-right: 40px;
+
+}
+#part4 p{
+  font-size: 20px;
+  margin-top: -50px;
+  padding-top: 0px;
+  margin-left: 25px;
+  margin-right: 0px;
+  padding-right: 0px;
+  padding-left: 30px;
+  color: black;
+  margin-bottom: 50px;
+  padding-bottom: 10px;
+}
+#part4 .line1{
+  margin-left :0px;
+  margin-top:20px;
+
+}
+
+#part4 .line1 #google img {
+  width : 150px;
+  height: 80px;
+  display: inline-block;
+  margin-left: 0px;
+  padding-left: 0px;
+  margin-right: 20px;
+  padding-right: 0px;
+}
+
+#part4 .line1 #apple img{
+  width : 140px;
+  height: 60px;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+@media only screen and (max-width: 480px) {
+  #part4 img{
+   margin-left: 10px;
+   padding-left: 0px;
+
+  }
+  #part4 .line1 #google img{
+    width:100px;
+    height:100px;
+  }
+  #part4 .line1 #apple img{
+    width:75px;
+    height:75px;
+  }
+  }
+#part5{
+  background-color: snow;
+}
+.city{
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+#part5 .caption{
+  margin-top: 10px;
+  font-size : 20px;
+}
+#part5 img{
+  margin-top: 40px;
+}
+
+#part5 .section{
+  margin-left: 0px;
+  padding-left: 0px;
+}
+#part5 #cap{
+  font-size: 20px;
+  margin-bottom: 0px;
+
+}
+#part5 .fa{
+  color:tomato;
 }
